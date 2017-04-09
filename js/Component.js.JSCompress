@@ -1,0 +1,15 @@
+﻿<jscompress public="http://www.jscompress.cn/" command="import-combineset">
+<combinefile path="Component.js">
+    <auto value="0" />
+    <sourcefile path=".\content.js" />
+    <sourcefile path=".\loading.js" />
+    <sourcefile path=".\ComponentBase.js" />
+    <sourcefile path=".\ComponentBar.js" />
+    <sourcefile path=".\ComponentBar_v.js" />
+    <sourcefile path=".\ComponentPie.js" />
+    <sourcefile path=".\ComponentRing.js" />
+    <sourcefile path=".\ComponentPoint.js" />
+    <sourcefile path=".\ComponentPolyline.js" />
+    <sourcefile path=".\ComponentRadar.js" />
+</combinefile>
+</jscompress>

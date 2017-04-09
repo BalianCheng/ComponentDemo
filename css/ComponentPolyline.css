@@ -1,0 +1,39 @@
+.Cpt_polyline {
+
+}
+
+.Cpt_polyline canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.Cpt_polyline .text {
+    position: absolute;
+    font-size: 12px;
+    text-align: center;
+    bottom: -20px;
+    height: 20px;
+    line-height: 20px;
+    -webkit-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -ms-transform: scale(.8);
+    -o-transform: scale(.8);
+    transform: scale(.8);
+    -webkit-transition: all 1s 1.5s;
+    -moz-transition: all 1s 1.5s;
+    -ms-transition: all 1s 1.5s;
+    -o-transition: all 1s 1.5s;
+    transition: all 1s 1.5s;
+    opacity: 0;
+}
+
+.Cpt_polyline_load .text {
+    opacity: 1;
+}
+
+.Cpt_polyline_leave .text {
+    opacity: 0;
+}
